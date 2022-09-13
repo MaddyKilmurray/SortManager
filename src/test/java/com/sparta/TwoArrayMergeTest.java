@@ -1,6 +1,6 @@
 package com.sparta;
 
-import com.sparta.sorters.TwoArrayMerge;
+import com.sparta.controllers.sorters.TwoArrayMerge;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package com.sparta.sorters;
+package com.sparta.controllers.sorters;
 
 public class TwoArrayMerge {
 

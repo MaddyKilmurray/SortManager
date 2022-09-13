@@ -1,4 +1,4 @@
-package com.sparta.interfaces;
+package com.sparta.controllers.interfaces;
 
 public interface Sorter {
 

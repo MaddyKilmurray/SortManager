@@ -1,7 +1,7 @@
 package com.sparta;
 
-import com.sparta.sorters.ArrayBubbleSort;
-import com.sparta.util.sortTimer;
+import com.sparta.controllers.sorters.ArrayBubbleSort;
+import com.sparta.controllers.util.sortTimer;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

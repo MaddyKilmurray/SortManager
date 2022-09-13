@@ -1,7 +1,7 @@
 package com.sparta;
 
-import com.sparta.sorters.ArrayBinarySort;
-import com.sparta.util.sortTimer;
+import com.sparta.controllers.sorters.ArrayBinarySort;
+import com.sparta.controllers.util.sortTimer;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -24,7 +24,7 @@ public class ArrayBinarySortTest {
     public void mergeSort_ExpectedResult() {
         int[] actual = { 5, 1, 6, 2, 3, 4 };
         int[] expected = { 1, 2, 3, 4, 5, 6 };
-        sorter.sortArray(actual);
+        actual = sorter.sortArray(actual);
         assertArrayEquals(expected, actual);
     }
 
@@ -32,7 +32,7 @@ public class ArrayBinarySortTest {
     public void mergeSort_SortedArrays() {
         int[] actual = { 1, 2, 3, 4, 5, 6 };
         int[] expected = { 1, 2, 3, 4, 5, 6 };
-        sorter.sortArray(actual);
+        actual = sorter.sortArray(actual);
         assertArrayEquals(expected, actual);
     }
 
@@ -40,7 +40,7 @@ public class ArrayBinarySortTest {
     public void mergeSort_OneOff() {
         int[] actual = { 6, 2, 3, 4, 5, 1 };
         int[] expected = { 1, 2, 3, 4, 5, 6 };
-        sorter.sortArray(actual);
+        actual = sorter.sortArray(actual);
         assertArrayEquals(expected, actual);
     }
 

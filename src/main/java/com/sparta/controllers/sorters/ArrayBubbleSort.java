@@ -1,6 +1,6 @@
-package com.sparta.sorters;
+package com.sparta.controllers.sorters;
 
-import com.sparta.interfaces.Sorter;
+import com.sparta.controllers.interfaces.Sorter;
 
 public class ArrayBubbleSort implements Sorter {
     @Override

@@ -1,7 +1,7 @@
-package com.sparta.util;
+package com.sparta.controllers.util;
 
-import com.sparta.sorters.ArrayBubbleSort;
-import com.sparta.interfaces.Sorter;
+import com.sparta.controllers.interfaces.Sorter;
+import com.sparta.models.RandomArrays;
 
 import java.util.ArrayList;
 import java.util.List;
