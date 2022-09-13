@@ -1,7 +1,7 @@
 package com.sparta;
 
 import com.sparta.controllers.sorters.ArrayMergeSort;
-import com.sparta.controllers.util.sortTimer;
+import com.sparta.controllers.util.SortTimer;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -12,12 +12,12 @@ public class ArrayMergeSortTest {
 
     ArrayMergeSort sorter;
 
-    sortTimer timer;
+    SortTimer timer;
 
     @BeforeEach
     public void setup() {
         sorter = new ArrayMergeSort();
-        timer = new sortTimer();
+        timer = new SortTimer();
     }
 
     @Test

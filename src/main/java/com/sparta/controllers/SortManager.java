@@ -9,7 +9,6 @@ import com.sparta.models.RandomArrays;
 public class SortManager {
 
     RandomArrays randomiser = new RandomArrays();
-    Sorter sorter;
 
     public int[] generateRandomArray() {
         return randomiser.generateRandomIntArray();
@@ -17,17 +16,6 @@ public class SortManager {
 
     public int[] generateRandomArrayWithLength(int length) {
         return randomiser.generateRandomIntArrayLength(length);
-    }
-
-    public int[] sort(int[] inputArray, Sorter sorterType) {
-        sorter = sorterType;
-        if (sorterType == null) {
-            return null;
-        }
-        if (inputArray.length == 0) {
-            return new int[0];
-        }
-        return sorter.sortArray(inputArray);
     }
 
     public Sorter sorterType(int i) {
@@ -45,4 +33,5 @@ public class SortManager {
         }
         return null;
     }
+
 }

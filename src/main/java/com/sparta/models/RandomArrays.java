@@ -15,6 +15,9 @@ public class RandomArrays {
     }
 
     public int[] generateRandomIntArrayLength(int length) {
+        if (length < 1) {
+            return null;
+        }
         int[] newInt = new int[length];
         for (int i = 0; i < newInt.length; i++) {
             newInt[i] = random.nextInt(150);

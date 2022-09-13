@@ -1,7 +1,7 @@
 package com.sparta;
 
 import com.sparta.controllers.sorters.ArrayBinarySort;
-import com.sparta.controllers.util.sortTimer;
+import com.sparta.controllers.util.SortTimer;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -12,12 +12,12 @@ public class ArrayBinarySortTest {
 
     ArrayBinarySort sorter;
 
-    sortTimer timer;
+    SortTimer timer;
 
     @BeforeEach
     public void setup() {
         sorter = new ArrayBinarySort();
-        timer = new sortTimer();
+        timer = new SortTimer();
     }
 
     @Test

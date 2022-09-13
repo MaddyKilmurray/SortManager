@@ -6,7 +6,7 @@ import com.sparta.models.RandomArrays;
 import java.util.ArrayList;
 import java.util.List;
 
-public class sortTimer {
+public class SortTimer {
 
     RandomArrays randomiser = new RandomArrays();
 
@@ -32,5 +32,9 @@ public class sortTimer {
             timeSum += times.get(j);
         }
         return (timeSum / times.size());
+    }
+
+    public long sortTimeInNano() {
+        return System.nanoTime();
     }
 }

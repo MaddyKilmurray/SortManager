@@ -1,7 +1,7 @@
 package com.sparta;
 
 import com.sparta.controllers.sorters.ArrayBubbleSort;
-import com.sparta.controllers.util.sortTimer;
+import com.sparta.controllers.util.SortTimer;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -10,12 +10,12 @@ public class BubbleSortTest {
 
     ArrayBubbleSort tester;
 
-    sortTimer timer;
+    SortTimer timer;
 
     @BeforeEach
     public void setup() {
         tester = new ArrayBubbleSort();
-        timer = new sortTimer();
+        timer = new SortTimer();
     }
 
     @Test
