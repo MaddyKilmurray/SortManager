@@ -77,4 +77,38 @@ public class SortManagerTest {
         SorterType sorter = sortManager.sorterType(1);
         Assertions.assertNotEquals(ArrayMergeSort.class, sorter.getSortType().getClass());
     }
+
+    @Test
+    public void sortManager_SortArray_Bubble_ExpectedResult() {
+        int[] testArray = {9,8,6,8,8,4,5,1,2,3,4,12,15,22,1,25};
+        int[] expectedArray = {1,2,3,4,5,6,8,9,12,15,22,25};
+        testArray = sortManager.sortArray(SorterType.valueOf("BUBBLESORT"), testArray);
+        Assertions.assertArrayEquals(testArray,expectedArray);
+    }
+
+    @Test
+    public void sortManager_SortArray_Merge_ExpectedResult() {
+        int[] testArray = {9,8,6,8,8,4,5,1,2,3,4,12,15,22,1,25};
+        int[] expectedArray = {1,2,3,4,5,6,8,9,12,15,22,25};
+        testArray = sortManager.sortArray(SorterType.valueOf("MERGESORT"), testArray);
+        Assertions.assertArrayEquals(testArray,expectedArray);
+    }
+
+    @Test
+    public void sortManager_SortArray_Binary_ExpectedResult() {
+        int[] testArray = {9,8,6,8,8,4,5,1,2,3,4,12,15,22,1,25};
+        int[] expectedArray = {1,2,3,4,5,6,8,9,12,15,22,25};
+        testArray = sortManager.sortArray(SorterType.valueOf("BINARYSORT"), testArray);
+        Assertions.assertArrayEquals(testArray,expectedArray);
+    }
+
+    @Test
+    public void runTime_ExpectedResult() {
+        Assertions.assertEquals(4000, sortManager.runTime(1000,5000));
+    }
+
+    @Test
+    public void runTime_NegativeNumberResult() {
+        Assertions.assertEquals(-1, sortManager.runTime(1000,500));
+    }
 }

@@ -1,0 +1,88 @@
+[ERROR] `2022-09-15 13:56:03.545 [main] DisplayManager - For input string: ""
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:678) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:784) ~[?:?]
+	at com.sparta.maddy.view.DisplayManager.sorterSelector(DisplayManager.java:64) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.menu(DisplayManager.java:28) ~[classes/:?]
+	at com.sparta.maddy.Main.main(Main.java:9) ~[classes/:?]
+[ERROR] `2022-09-15 13:56:13.874 [main] DisplayManager - For input string: ""
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:678) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:784) ~[?:?]
+	at com.sparta.maddy.view.DisplayManager.sorterSelector(DisplayManager.java:64) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.menu(DisplayManager.java:28) ~[classes/:?]
+	at com.sparta.maddy.Main.main(Main.java:9) ~[classes/:?]
+[ERROR] `2022-09-15 13:56:16.784 [main] DisplayManager - For input string: ""
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:678) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:784) ~[?:?]
+	at com.sparta.maddy.view.DisplayManager.setArray(DisplayManager.java:78) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.menu(DisplayManager.java:31) ~[classes/:?]
+	at com.sparta.maddy.Main.main(Main.java:9) ~[classes/:?]
+[ERROR] `2022-09-15 13:56:18.208 [main] DisplayManager - For input string: ""
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:678) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:784) ~[?:?]
+	at com.sparta.maddy.view.DisplayManager.setArray(DisplayManager.java:78) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.menu(DisplayManager.java:31) ~[classes/:?]
+	at com.sparta.maddy.Main.main(Main.java:9) ~[classes/:?]
+[ERROR] 2022-09-15 13:57:10.965 [main] DisplayManager - For input string: ""
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:678) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:784) ~[?:?]
+	at com.sparta.maddy.view.DisplayManager.sorterSelector(DisplayManager.java:64) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.menu(DisplayManager.java:28) ~[classes/:?]
+	at com.sparta.maddy.Main.main(Main.java:9) ~[classes/:?]
+[ERROR] 2022-09-15 13:57:12.144 [main] DisplayManager - For input string: ""
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:678) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:784) ~[?:?]
+	at com.sparta.maddy.view.DisplayManager.sorterSelector(DisplayManager.java:64) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.menu(DisplayManager.java:28) ~[classes/:?]
+	at com.sparta.maddy.Main.main(Main.java:9) ~[classes/:?]
+[ERROR] 2022-09-15 13:57:15.815 [main] DisplayManager - For input string: ""
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:678) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:784) ~[?:?]
+	at com.sparta.maddy.view.DisplayManager.setArray(DisplayManager.java:78) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.menu(DisplayManager.java:31) ~[classes/:?]
+	at com.sparta.maddy.Main.main(Main.java:9) ~[classes/:?]
+[ERROR] 2022-09-15 13:57:16.696 [main] DisplayManager - For input string: ""
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:678) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:784) ~[?:?]
+	at com.sparta.maddy.view.DisplayManager.setArray(DisplayManager.java:78) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.menu(DisplayManager.java:31) ~[classes/:?]
+	at com.sparta.maddy.Main.main(Main.java:9) ~[classes/:?]
+[ERROR] 2022-09-15 13:57:17.792 [main] DisplayManager - For input string: ""
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:678) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:784) ~[?:?]
+	at com.sparta.maddy.view.DisplayManager.setArray(DisplayManager.java:78) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.menu(DisplayManager.java:31) ~[classes/:?]
+	at com.sparta.maddy.Main.main(Main.java:9) ~[classes/:?]
+[ERROR] 2022-09-15 17:17:06.300 [main] DisplayManager - For input string: "af"
+java.lang.NumberFormatException: For input string: "af"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:784) ~[?:?]
+	at com.sparta.maddy.view.DisplayManager.chooseComparision(DisplayManager.java:69) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.menu(DisplayManager.java:33) ~[classes/:?]
+	at com.sparta.maddy.Main.main(Main.java:9) ~[classes/:?]
+[ERROR] 2022-09-15 17:18:21.665 [main] DisplayManager - For input string: "SD"
+java.lang.NumberFormatException: For input string: "SD"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:784) ~[?:?]
+	at com.sparta.maddy.view.DisplayManager.chooseComparision(DisplayManager.java:69) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.menu(DisplayManager.java:33) ~[classes/:?]
+	at com.sparta.maddy.Main.main(Main.java:9) ~[classes/:?]

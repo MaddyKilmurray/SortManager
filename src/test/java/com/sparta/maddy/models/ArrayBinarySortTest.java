@@ -1,6 +1,6 @@
-package com.sparta.maddy;
+package com.sparta.maddy.models;
 
-import com.sparta.maddy.models.sorters.ArrayMergeSort;
+import com.sparta.maddy.models.sorters.ArrayBinarySort;
 import com.sparta.maddy.controllers.util.SortTimer;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -8,15 +8,15 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
-public class ArrayMergeSortTest {
+public class ArrayBinarySortTest {
 
-    ArrayMergeSort sorter;
+    ArrayBinarySort sorter;
 
     SortTimer timer;
 
     @BeforeEach
     public void setup() {
-        sorter = new ArrayMergeSort();
+        sorter = new ArrayBinarySort();
         timer = new SortTimer();
     }
 
@@ -53,8 +53,16 @@ public class ArrayMergeSortTest {
     }
 
     @Test
-    public void mergeSort_Time() {
+    public void binarySort_Time_SetLength() {
         long averageTime = timer.sortTime(sorter);
+        System.out.println(averageTime);
         Assertions.assertTrue(averageTime < 80000);
+    }
+
+    @Test
+    public void binarySort_LongerLength() {
+        long averageTime = timer.sortTimeCustomLength(sorter, 1000);
+        System.out.println(averageTime);
+        Assertions.assertTrue(averageTime < 500000);
     }
 }

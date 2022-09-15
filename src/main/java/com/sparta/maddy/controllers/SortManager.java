@@ -1,14 +1,13 @@
 package com.sparta.maddy.controllers;
 
 import com.sparta.maddy.models.enums.SorterType;
-import com.sparta.maddy.models.interfaces.Sorter;
-import com.sparta.maddy.models.sorters.ArrayBinarySort;
-import com.sparta.maddy.models.sorters.ArrayBubbleSort;
-import com.sparta.maddy.models.sorters.ArrayMergeSort;
 import com.sparta.maddy.models.RandomArrays;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class SortManager {
 
+    Logger logger = LogManager.getLogger(SortManager.class);
     RandomArrays randomiser = new RandomArrays();
 
     public int[] generateRandomArray() {
@@ -25,6 +24,18 @@ public class SortManager {
             return sorter;
         }
         return null;
+    }
+
+    public int[] sortArray(SorterType sorterType, int[] arrayToBeSorted) {
+        return sorterType.getSortType().sortArray(arrayToBeSorted);
+    }
+
+    public long runTime(long startTimeInNano, long endTimeInNano) {
+        if (endTimeInNano > startTimeInNano) {
+            return endTimeInNano - startTimeInNano;
+        } else {
+            return -1;
+        }
     }
 
 }

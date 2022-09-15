@@ -1,6 +1,5 @@
-package com.sparta.maddy.enums;
+package com.sparta.maddy.models.enums;
 
-import com.sparta.maddy.models.enums.SorterType;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

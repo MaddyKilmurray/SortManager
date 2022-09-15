@@ -1,4 +1,4 @@
-package com.sparta.maddy;
+package com.sparta.maddy.models;
 
 import com.sparta.maddy.models.sorters.ArrayBubbleSort;
 import com.sparta.maddy.controllers.util.SortTimer;
@@ -52,9 +52,17 @@ public class BubbleSortTest {
     }
 
     @Test
-    public void sortArrayTest_Time() {
+    public void bubbleSort_Time_SetLength() {
         long averageTime = timer.sortTime(tester);
-        Assertions.assertTrue(averageTime < 90000);
+        System.out.println(averageTime);
+        Assertions.assertTrue(averageTime < 70000);
+    }
+
+    @Test
+    public void bubbleSort_LongerLength() {
+        long averageTime = timer.sortTimeCustomLength(tester, 1000);
+        System.out.println(averageTime);
+        Assertions.assertTrue(averageTime < 300000);
     }
 
     @Test
