@@ -51,10 +51,10 @@ public class ArrayBinarySortTest {
         actual = sorter.sortArray(actual);
         assertArrayEquals(expected, actual);
     }
-//
-//    @Test
-//    public void binarySort_Time() {
-//        long averageTime = timer.sortTime(sorter);
-//        Assertions.assertTrue(averageTime < 100000);
-//    }
+
+    @Test
+    public void binarySort_Time() {
+        long averageTime = timer.sortTime(sorter);
+        Assertions.assertTrue(averageTime < 100000);
+    }
 }
