@@ -7,11 +7,12 @@ public class ArrayBinarySort implements Sorter {
 
     DuplicateRemover duplicateRemover = new DuplicateRemover();
     int[] sortedArray;
-    int index = 0;
+    int index;
     int arrayLength = 0;
 
     @Override
     public int[] sortArray(int[] arrayToSort) {
+        index = 0;
         arrayToSort = duplicateRemover.removeDuplicates(arrayToSort);
         arrayLength = arrayToSort.length;
         sortedArray = new int[arrayLength];
