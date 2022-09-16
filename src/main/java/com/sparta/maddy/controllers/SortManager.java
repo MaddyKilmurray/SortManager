@@ -21,12 +21,14 @@ public class SortManager {
     public SorterType sorterType(int i) {
         SorterType sorter = SorterType.getById(i);
         if (sorter != null) {
+            logger.info("Sorter selected from Sorter Type class. Sorter type: " + sorter.getSortName());
             return sorter;
         }
         return null;
     }
 
     public int[] sortArray(SorterType sorterType, int[] arrayToBeSorted) {
+        logger.info("Sort Array method in SortManager called");
         return sorterType.getSortType().sortArray(arrayToBeSorted);
     }
 
@@ -34,6 +36,7 @@ public class SortManager {
         if (endTimeInNano > startTimeInNano) {
             return endTimeInNano - startTimeInNano;
         } else {
+            logger.warn("End time is before start time");
             return -1;
         }
     }

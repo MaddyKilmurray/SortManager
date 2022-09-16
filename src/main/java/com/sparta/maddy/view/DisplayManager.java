@@ -53,6 +53,7 @@ public class DisplayManager {
         try {
             arrayLength = Integer.parseInt(userInput.nextLine());
             arrayToBeSorted = new int[arrayLength];
+            logger.info("Array set");
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
             System.out.println("Please only type numbers greater than 0");
@@ -68,12 +69,14 @@ public class DisplayManager {
             String choiceInput = userInput.nextLine();
             try {
                 userChoice = Integer.parseInt(choiceInput);
+                logger.info("Sort Chooser: User selected " + userChoice);
                 if (userChoice == 1) {
                     useOneSortAlgorithm();
                 } else if (userChoice == 2) {
                     compareThreeSortAlgorithms();
                 } else {
                     System.out.println(ConsoleColors.RED + "Please type 1 or 2" + ConsoleColors.RESET);
+                    logger.warn("Sort Chooser Warning: User selected " + userChoice);
                     userChoice = 0;
                 }
             } catch (Exception e) {
@@ -89,12 +92,14 @@ public class DisplayManager {
         String continueInput = userInput.nextLine();
         if (continueInput.equals("q") || continueInput.equals("Q")) {
             System.out.println("Thanks!");
+            logger.info("User exited");
             return false;
         }
         return true;
     }
 
     public void useOneSortAlgorithm() {
+        logger.info("One sort algorithm selected");
         while(sorter == null) {
             sorterSelector();
         }
@@ -116,6 +121,7 @@ public class DisplayManager {
     }
 
     public void compareThreeSortAlgorithms() {
+        logger.info("Compare sort algorithms selected");
         int i = 1;
         while (i < 4) {
             arrayToBeSorted = sortManager.generateRandomArrayWithLength(arrayLength);
@@ -144,6 +150,7 @@ public class DisplayManager {
 
         try {
             sorter = sortManager.sorterType(Integer.parseInt(userInput.nextLine()));
+            logger.info("User selected " + sorter.getSortName() + " method");
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
             System.out.println("Please type 1, 2 or 3");
@@ -153,6 +160,7 @@ public class DisplayManager {
     public void printUnsortedArray(int[] arrayToBeSorted) {
         System.out.println(ConsoleColors.CYAN + "Your unsorted array is: ");
         printArray(arrayToBeSorted);
+        logger.info("Unsorted array printed");
         System.out.println(" " + ConsoleColors.RESET);
     }
 
@@ -169,6 +177,7 @@ public class DisplayManager {
     public void printSortedArray(int[] arrayToBeSorted) {
         System.out.println(ConsoleColors.PURPLE + "Your sorted array is: ");
         printArray(arrayToBeSorted);
+        logger.info("Sorted array printed");
         System.out.println(" " + ConsoleColors.RESET);
     }
 
@@ -176,6 +185,7 @@ public class DisplayManager {
         long runTime = sortManager.runTime(startTimeInNano, endTimeInNano);
         if (runTime != -1) {
             System.out.println("And it took: " + runTime + " nano seconds");
+            logger.info("Sort Time printed. Sort time is: " + runTime);
         } else {
             throw new SortTimeException("End time is before start time");
         }
