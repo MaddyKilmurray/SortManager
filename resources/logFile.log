@@ -86,3 +86,33 @@ java.lang.NumberFormatException: For input string: "SD"
 	at com.sparta.maddy.view.DisplayManager.chooseComparision(DisplayManager.java:69) ~[classes/:?]
 	at com.sparta.maddy.view.DisplayManager.menu(DisplayManager.java:33) ~[classes/:?]
 	at com.sparta.maddy.Main.main(Main.java:9) ~[classes/:?]
+[ERROR] 2022-09-16 09:29:42.898 [main] DisplayManager - class [I cannot be cast to class java.lang.Integer ([I and java.lang.Integer are in module java.base of loader 'bootstrap')
+java.lang.ClassCastException: class [I cannot be cast to class java.lang.Integer ([I and java.lang.Integer are in module java.base of loader 'bootstrap')
+	at com.sparta.maddy.controllers.util.DuplicateRemover.removeDuplicates(DuplicateRemover.java:15) ~[classes/:?]
+	at com.sparta.maddy.models.sorters.ArrayBinarySort.sortArray(ArrayBinarySort.java:16) ~[classes/:?]
+	at com.sparta.maddy.controllers.SortManager.sortArray(SortManager.java:30) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.sortArray(DisplayManager.java:165) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.useOneSortAlgorithm(DisplayManager.java:107) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.chooseComparision(DisplayManager.java:72) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.menu(DisplayManager.java:34) ~[classes/:?]
+	at com.sparta.maddy.Main.main(Main.java:9) ~[classes/:?]
+[ERROR] 2022-09-16 09:29:58.754 [main] DisplayManager - class [I cannot be cast to class java.lang.Integer ([I and java.lang.Integer are in module java.base of loader 'bootstrap')
+java.lang.ClassCastException: class [I cannot be cast to class java.lang.Integer ([I and java.lang.Integer are in module java.base of loader 'bootstrap')
+	at com.sparta.maddy.controllers.util.DuplicateRemover.removeDuplicates(DuplicateRemover.java:15) ~[classes/:?]
+	at com.sparta.maddy.models.sorters.ArrayBinarySort.sortArray(ArrayBinarySort.java:16) ~[classes/:?]
+	at com.sparta.maddy.controllers.SortManager.sortArray(SortManager.java:30) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.sortArray(DisplayManager.java:165) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.useOneSortAlgorithm(DisplayManager.java:107) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.chooseComparision(DisplayManager.java:72) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.menu(DisplayManager.java:34) ~[classes/:?]
+	at com.sparta.maddy.Main.main(Main.java:9) ~[classes/:?]
+[ERROR] 2022-09-16 09:30:49.893 [main] DisplayManager - class [I cannot be cast to class java.lang.Integer ([I and java.lang.Integer are in module java.base of loader 'bootstrap')
+java.lang.ClassCastException: class [I cannot be cast to class java.lang.Integer ([I and java.lang.Integer are in module java.base of loader 'bootstrap')
+	at com.sparta.maddy.controllers.util.DuplicateRemover.removeDuplicates(DuplicateRemover.java:18) ~[classes/:?]
+	at com.sparta.maddy.models.sorters.ArrayBinarySort.sortArray(ArrayBinarySort.java:16) ~[classes/:?]
+	at com.sparta.maddy.controllers.SortManager.sortArray(SortManager.java:30) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.sortArray(DisplayManager.java:165) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.useOneSortAlgorithm(DisplayManager.java:107) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.chooseComparision(DisplayManager.java:72) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.menu(DisplayManager.java:34) ~[classes/:?]
+	at com.sparta.maddy.Main.main(Main.java:9) ~[classes/:?]
