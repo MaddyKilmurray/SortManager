@@ -1,4 +1,4 @@
-package com.sparta.maddy;
+package com.sparta.maddy.models;
 
 import com.sparta.maddy.models.sorters.TwoArrayMerge;
 import org.junit.jupiter.api.Assertions;

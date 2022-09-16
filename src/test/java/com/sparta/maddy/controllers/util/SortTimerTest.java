@@ -1,6 +1,5 @@
-package com.sparta.maddy.util;
+package com.sparta.maddy.controllers.util;
 
-import com.sparta.maddy.controllers.util.SortTimer;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

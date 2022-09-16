@@ -1,0 +1,113 @@
+[INFO ] 2022-09-16 17:10:25.309 [main] DisplayManager - Array set
+[INFO ] 2022-09-16 17:10:27.057 [main] DisplayManager - Sort Chooser: User selected 0
+[WARN ] 2022-09-16 17:10:27.057 [main] DisplayManager - Sort Chooser Warning: User selected 0
+[INFO ] 2022-09-16 17:10:29.169 [main] DisplayManager - Sort Chooser: User selected 1
+[INFO ] 2022-09-16 17:10:29.169 [main] DisplayManager - One sort algorithm selected
+[INFO ] 2022-09-16 17:10:31.660 [main] SorterType - Sorter selected from Sorter Type class. Sorter type: Binary Sort
+[INFO ] 2022-09-16 17:10:31.660 [main] SortManager - Sorter selected from Sorter Type class. Sorter type: Binary Sort
+[INFO ] 2022-09-16 17:10:31.660 [main] DisplayManager - User selected Binary Sort method
+[INFO ] 2022-09-16 17:10:31.661 [main] DisplayManager - Unsorted array printed
+[INFO ] 2022-09-16 17:10:31.661 [main] SortManager - Sort Array method in SortManager called
+[INFO ] 2022-09-16 17:10:31.662 [main] DisplayManager - Sorted array printed
+[INFO ] 2022-09-16 17:10:31.665 [main] DisplayManager - Sort Time printed. Sort time is: 956800
+[INFO ] 2022-09-16 17:10:38.561 [main] DisplayManager - Array set
+[INFO ] 2022-09-16 17:10:41.169 [main] DisplayManager - Sort Chooser: User selected 1
+[INFO ] 2022-09-16 17:10:41.169 [main] DisplayManager - One sort algorithm selected
+[INFO ] 2022-09-16 17:10:42.640 [main] SorterType - Sorter selected from Sorter Type class. Sorter type: Bubble Sort
+[INFO ] 2022-09-16 17:10:42.641 [main] SortManager - Sorter selected from Sorter Type class. Sorter type: Bubble Sort
+[INFO ] 2022-09-16 17:10:42.641 [main] DisplayManager - User selected Bubble Sort method
+[INFO ] 2022-09-16 17:10:42.642 [main] DisplayManager - Unsorted array printed
+[INFO ] 2022-09-16 17:10:42.642 [main] SortManager - Sort Array method in SortManager called
+[INFO ] 2022-09-16 17:10:42.643 [main] DisplayManager - Sorted array printed
+[INFO ] 2022-09-16 17:10:42.643 [main] DisplayManager - Sort Time printed. Sort time is: 251200
+[ERROR] 2022-09-16 17:10:47.536 [main] DisplayManager - For input string: "afadf"
+java.lang.NumberFormatException: For input string: "afadf"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:784) ~[?:?]
+	at com.sparta.maddy.view.DisplayManager.setArray(DisplayManager.java:54) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.menu(DisplayManager.java:31) ~[classes/:?]
+	at com.sparta.maddy.Main.main(Main.java:9) ~[classes/:?]
+[ERROR] 2022-09-16 17:10:49.631 [main] DisplayManager - For input string: "adfadf"
+java.lang.NumberFormatException: For input string: "adfadf"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:784) ~[?:?]
+	at com.sparta.maddy.view.DisplayManager.setArray(DisplayManager.java:54) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.menu(DisplayManager.java:31) ~[classes/:?]
+	at com.sparta.maddy.Main.main(Main.java:9) ~[classes/:?]
+[INFO ] 2022-09-16 17:10:52.136 [main] DisplayManager - Array set
+[ERROR] 2022-09-16 17:10:54.400 [main] DisplayManager - For input string: "adfadfadgf"
+java.lang.NumberFormatException: For input string: "adfadfadgf"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:784) ~[?:?]
+	at com.sparta.maddy.view.DisplayManager.chooseComparision(DisplayManager.java:71) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.menu(DisplayManager.java:34) ~[classes/:?]
+	at com.sparta.maddy.Main.main(Main.java:9) ~[classes/:?]
+[ERROR] 2022-09-16 17:10:55.905 [main] DisplayManager - For input string: "adfadfadf"
+java.lang.NumberFormatException: For input string: "adfadfadf"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:668) ~[?:?]
+	at java.lang.Integer.parseInt(Integer.java:784) ~[?:?]
+	at com.sparta.maddy.view.DisplayManager.chooseComparision(DisplayManager.java:71) ~[classes/:?]
+	at com.sparta.maddy.view.DisplayManager.menu(DisplayManager.java:34) ~[classes/:?]
+	at com.sparta.maddy.Main.main(Main.java:9) ~[classes/:?]
+[INFO ] 2022-09-16 17:10:58.024 [main] DisplayManager - Sort Chooser: User selected 2
+[INFO ] 2022-09-16 17:10:58.024 [main] DisplayManager - Compare sort algorithms selected
+[INFO ] 2022-09-16 17:10:58.026 [main] DisplayManager - Unsorted array printed
+[INFO ] 2022-09-16 17:10:58.026 [main] SorterType - Sorter selected from Sorter Type class. Sorter type: Binary Sort
+[INFO ] 2022-09-16 17:10:58.026 [main] SortManager - Sort Array method in SortManager called
+[INFO ] 2022-09-16 17:10:58.028 [main] DisplayManager - Sorted array printed
+[INFO ] 2022-09-16 17:10:58.028 [main] DisplayManager - Sort Time printed. Sort time is: 304200
+[INFO ] 2022-09-16 17:10:58.029 [main] DisplayManager - Unsorted array printed
+[INFO ] 2022-09-16 17:10:58.029 [main] SorterType - Sorter selected from Sorter Type class. Sorter type: Bubble Sort
+[INFO ] 2022-09-16 17:10:58.029 [main] SortManager - Sort Array method in SortManager called
+[INFO ] 2022-09-16 17:10:58.030 [main] DisplayManager - Sorted array printed
+[INFO ] 2022-09-16 17:10:58.030 [main] DisplayManager - Sort Time printed. Sort time is: 152400
+[INFO ] 2022-09-16 17:10:58.031 [main] DisplayManager - Unsorted array printed
+[INFO ] 2022-09-16 17:10:58.031 [main] SorterType - Sorter selected from Sorter Type class. Sorter type: Merge Sort
+[INFO ] 2022-09-16 17:10:58.031 [main] SortManager - Sort Array method in SortManager called
+[INFO ] 2022-09-16 17:10:58.032 [main] DisplayManager - Sorted array printed
+[INFO ] 2022-09-16 17:10:58.032 [main] DisplayManager - Sort Time printed. Sort time is: 204700
+[INFO ] 2022-09-16 17:11:00.121 [main] DisplayManager - User exited
+[INFO ] 2022-09-16 17:15:11.914 [main] SortManager - Sort Array method in SortManager called
+[INFO ] 2022-09-16 17:15:11.955 [main] SortManager - Sort Array method in SortManager called
+[INFO ] 2022-09-16 17:15:11.964 [main] SorterType - Sorter selected from Sorter Type class. Sorter type: Merge Sort
+[INFO ] 2022-09-16 17:15:11.964 [main] SortManager - Sorter selected from Sorter Type class. Sorter type: Merge Sort
+[INFO ] 2022-09-16 17:15:11.970 [main] SorterType - Sorter selected from Sorter Type class. Sorter type: Merge Sort
+[INFO ] 2022-09-16 17:15:11.970 [main] SortManager - Sorter selected from Sorter Type class. Sorter type: Merge Sort
+[INFO ] 2022-09-16 17:15:11.973 [main] SorterType - Sorter selected from Sorter Type class. Sorter type: Binary Sort
+[INFO ] 2022-09-16 17:15:11.973 [main] SortManager - Sorter selected from Sorter Type class. Sorter type: Binary Sort
+[INFO ] 2022-09-16 17:15:11.976 [main] SortManager - Sort Array method in SortManager called
+[INFO ] 2022-09-16 17:15:11.979 [main] SorterType - Sorter selected from Sorter Type class. Sorter type: Binary Sort
+[INFO ] 2022-09-16 17:15:11.980 [main] SortManager - Sorter selected from Sorter Type class. Sorter type: Binary Sort
+[INFO ] 2022-09-16 17:15:11.985 [main] SorterType - Sorter selected from Sorter Type class. Sorter type: Bubble Sort
+[INFO ] 2022-09-16 17:15:11.985 [main] SortManager - Sorter selected from Sorter Type class. Sorter type: Bubble Sort
+[WARN ] 2022-09-16 17:15:11.988 [main] SortManager - End time is before start time
+[INFO ] 2022-09-16 17:15:11.994 [main] SorterType - Sorter selected from Sorter Type class. Sorter type: Bubble Sort
+[INFO ] 2022-09-16 17:15:11.994 [main] SortManager - Sorter selected from Sorter Type class. Sorter type: Bubble Sort
+[INFO ] 2022-09-16 17:15:12.212 [main] DisplayManager - Sorted array printed
+[INFO ] 2022-09-16 17:15:12.221 [main] DisplayManager - Sort Time printed. Sort time is: 500
+[INFO ] 2022-09-16 17:15:12.224 [main] DisplayManager - Unsorted array printed
+[WARN ] 2022-09-16 17:15:12.231 [main] SortManager - End time is before start time
+[INFO ] 2022-09-16 17:25:41.072 [main] SortManager - Sort Array method in SortManager called
+[INFO ] 2022-09-16 17:25:41.113 [main] SortManager - Sort Array method in SortManager called
+[INFO ] 2022-09-16 17:25:41.121 [main] SorterType - Sorter selected from Sorter Type class. Sorter type: Merge Sort
+[INFO ] 2022-09-16 17:25:41.121 [main] SortManager - Sorter selected from Sorter Type class. Sorter type: Merge Sort
+[INFO ] 2022-09-16 17:25:41.128 [main] SorterType - Sorter selected from Sorter Type class. Sorter type: Merge Sort
+[INFO ] 2022-09-16 17:25:41.128 [main] SortManager - Sorter selected from Sorter Type class. Sorter type: Merge Sort
+[INFO ] 2022-09-16 17:25:41.131 [main] SorterType - Sorter selected from Sorter Type class. Sorter type: Binary Sort
+[INFO ] 2022-09-16 17:25:41.131 [main] SortManager - Sorter selected from Sorter Type class. Sorter type: Binary Sort
+[INFO ] 2022-09-16 17:25:41.133 [main] SortManager - Sort Array method in SortManager called
+[INFO ] 2022-09-16 17:25:41.136 [main] SorterType - Sorter selected from Sorter Type class. Sorter type: Binary Sort
+[INFO ] 2022-09-16 17:25:41.137 [main] SortManager - Sorter selected from Sorter Type class. Sorter type: Binary Sort
+[INFO ] 2022-09-16 17:25:41.142 [main] SorterType - Sorter selected from Sorter Type class. Sorter type: Bubble Sort
+[INFO ] 2022-09-16 17:25:41.142 [main] SortManager - Sorter selected from Sorter Type class. Sorter type: Bubble Sort
+[WARN ] 2022-09-16 17:25:41.144 [main] SortManager - End time is before start time
+[INFO ] 2022-09-16 17:25:41.148 [main] SorterType - Sorter selected from Sorter Type class. Sorter type: Bubble Sort
+[INFO ] 2022-09-16 17:25:41.149 [main] SortManager - Sorter selected from Sorter Type class. Sorter type: Bubble Sort
+[INFO ] 2022-09-16 17:25:41.354 [main] DisplayManager - Sorted array printed
+[INFO ] 2022-09-16 17:25:41.362 [main] DisplayManager - Sort Time printed. Sort time is: 500
+[INFO ] 2022-09-16 17:25:41.364 [main] DisplayManager - Unsorted array printed
+[WARN ] 2022-09-16 17:25:41.372 [main] SortManager - End time is before start time
