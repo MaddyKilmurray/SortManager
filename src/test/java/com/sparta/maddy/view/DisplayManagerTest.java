@@ -1,7 +1,6 @@
 package com.sparta.maddy.view;
 
-import com.sparta.maddy.controllers.exceptions.RunTimeException;
-import com.sparta.maddy.controllers.util.ConsoleColors;
+import com.sparta.maddy.controllers.exceptions.SortTimeException;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -41,15 +40,15 @@ public class DisplayManagerTest {
     }
 
     @Test
-    public void printRunTime_ExpectedResult() throws RunTimeException {
+    public void printRunTime_ExpectedResult() throws SortTimeException {
         displayManager.printRunTime(500,1000);
         Assertions.assertEquals("And it took: 500 nano seconds", outputStreamCaptor.toString()
                 .trim());
     }
 
     @Test
-    public void printRunTime_ExceptionThrown() throws RunTimeException {
-        Assertions.assertThrows(RunTimeException.class, () -> {
+    public void printRunTime_ExceptionThrown() throws SortTimeException {
+        Assertions.assertThrows(SortTimeException.class, () -> {
             displayManager.printRunTime(5000,1000);
         });
     }

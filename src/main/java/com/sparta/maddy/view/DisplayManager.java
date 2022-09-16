@@ -1,7 +1,7 @@
 package com.sparta.maddy.view;
 
 import com.sparta.maddy.controllers.SortManager;
-import com.sparta.maddy.controllers.exceptions.RunTimeException;
+import com.sparta.maddy.controllers.exceptions.SortTimeException;
 import com.sparta.maddy.controllers.util.ConsoleColors;
 import com.sparta.maddy.models.enums.SorterType;
 import com.sparta.maddy.controllers.util.SortTimer;
@@ -172,12 +172,12 @@ public class DisplayManager {
         System.out.println(" " + ConsoleColors.RESET);
     }
 
-    public void printRunTime(long startTimeInNano, long endTimeInNano) throws RunTimeException {
+    public void printRunTime(long startTimeInNano, long endTimeInNano) throws SortTimeException {
         long runTime = sortManager.runTime(startTimeInNano, endTimeInNano);
         if (runTime != -1) {
             System.out.println("And it took: " + runTime + " nano seconds");
         } else {
-            throw new RunTimeException("End time is before start time");
+            throw new SortTimeException("End time is before start time");
         }
     }
 
