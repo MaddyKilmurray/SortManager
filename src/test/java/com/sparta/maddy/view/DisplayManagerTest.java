@@ -1,6 +1,7 @@
 package com.sparta.maddy.view;
 
 import com.sparta.maddy.controllers.exceptions.SortTimeException;
+import com.sparta.maddy.controllers.util.ConsoleColors;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -14,12 +15,15 @@ public class DisplayManagerTest {
     private final PrintStream standardOut = System.out;
     private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
 
+    private ConsoleColors consoleColors;
+
     int[] testArray;
     DisplayManager displayManager;
 
     @BeforeEach
     public void setup() {
         displayManager = new DisplayManager();
+        consoleColors = new ConsoleColors();
         System.setOut(new PrintStream(outputStreamCaptor));
     }
 

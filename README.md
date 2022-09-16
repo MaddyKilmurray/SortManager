@@ -350,6 +350,15 @@ Any errors, warnings and exceptions are recorded in logFile.log
 - Never assume that the user will enter the correct input, as there is always room for human error
 
 
+## Test Coverage
+
+Class: 100%
+
+Method: 77%
+
+Line: 68%
+
+Number of tests: 58
 
 ## Support
 

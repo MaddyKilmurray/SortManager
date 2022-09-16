@@ -55,7 +55,7 @@ public class BubbleSortTest {
     public void bubbleSort_Time_SetLength() {
         long averageTime = timer.sortTime(tester);
         System.out.println(averageTime);
-        Assertions.assertTrue(averageTime < 70000);
+        Assertions.assertTrue(averageTime < 80000);
     }
 
     @Test
