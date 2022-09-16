@@ -82,7 +82,7 @@ The algorithm goes through the following steps:
 
    4. The counter is incremented, signalling that a swap has taken place this round.
 
-      ![image-20220912144915023](C:\Users\maddy\AppData\Roaming\Typora\typora-user-images\image-20220912144915023.png)
+      ![image-20220912144915023](resources/images/bubble_sort_example.png)
 
 5. Once all items have been iterated over, or a pass has been made with no swaps, the method then returns the sorted array.
 
@@ -244,25 +244,25 @@ DuplicateRemover duplicateRemover = new DuplicateRemover();
 
 ### Binary Sort Example:
 
-![image-20220916094443008](C:\Users\maddy\AppData\Roaming\Typora\typora-user-images\image-20220916094443008.png)
+![image-20220916094443008](resources/images/binary_sort_screenshot.png)
 
 
 
 ### Bubble Sort Example:
 
-![image-20220916094604542](C:\Users\maddy\AppData\Roaming\Typora\typora-user-images\image-20220916094604542.png)
+![image-20220916094604542](resources/images/bubble_sort_screenshot.png)
 
 
 
 ### Merge Sort Example:
 
-![image-20220916100129022](C:\Users\maddy\AppData\Roaming\Typora\typora-user-images\image-20220916100129022.png)
+![image-20220916100129022](resources/images/merge_sort_screenshot.png)
 
 
 
 ### Comparison Example:
 
-![image-20220916100207775](C:\Users\maddy\AppData\Roaming\Typora\typora-user-images\image-20220916100207775.png)
+![image-20220916100207775](resources/images/comparison_screenshot.png)
 
 
 
